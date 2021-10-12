@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CC2D2D"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:padding="5dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/user"
+        android:scaleType="fitXY"
+        app:shapeAppearanceOverlay="@style/circular_image"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/white"
+        />
+    <TextView
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Name of User"/>
+
+    <TextView
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:text="Profession"/>
+
+</LinearLayout>

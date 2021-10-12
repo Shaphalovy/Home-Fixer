@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "595045727667",
+    "project_id": "home-fixer-bf1d0",
+    "storage_bucket": "home-fixer-bf1d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595045727667:android:915f2aea70d37d956c9fc6",
+        "android_client_info": {
+          "package_name": "com.example.homefixer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595045727667-ep3ksbuq0ucl86ulas9bq1hi8ft9n802.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt2nu7sO4X39_fW8tv9pHCHPh91tI3dsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595045727667-ep3ksbuq0ucl86ulas9bq1hi8ft9n802.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

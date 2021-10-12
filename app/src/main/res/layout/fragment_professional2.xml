@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Professional1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+
+    <!--           FIRST ROW-->
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+
+
+
+        <!--                FIRST ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/doctor"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Doctor"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FIRST ITEM-->
+
+        <!--                SECOND ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pharmacist"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Pharmacist"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF SECOND ITEM-->
+
+        <!--                THIRD ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dentist"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Dentist"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF THIRD ITEM--> <!--                THIRD ITEM-->
+
+        <!--        THIRD ITEM-->
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/police"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Police"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FOURTH ITEM-->
+    </LinearLayout>
+    <!--            END OF FIRST ROW-->
+
+
+
+
+    <!--           FIRST ROW-->
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+
+
+
+        <!--                FIRST ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/firefighter"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="FireFighter"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FIRST ITEM-->
+
+        <!--                SECOND ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tailor"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Tailor"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF SECOND ITEM-->
+
+        <!--                THIRD ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/journalist"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Journalist"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF THIRD ITEM--> <!--                THIRD ITEM-->
+
+        <!--        THIRD ITEM-->
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/chef"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Chef"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FOURTH ITEM-->
+    </LinearLayout>
+    <!--            END OF SECOND ROW-->
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Professional1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+
+    <!--           FIRST ROW-->
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+
+
+
+        <!--                FIRST ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/teacher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Teacher"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FIRST ITEM-->
+
+        <!--                SECOND ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/isp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="ISP"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF SECOND ITEM-->
+
+        <!--                THIRD ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/electrician"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Electrician"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF THIRD ITEM--> <!--                THIRD ITEM-->
+
+        <!--        THIRD ITEM-->
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/carpenter"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Carpenter"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FOURTH ITEM-->
+    </LinearLayout>
+    <!--            END OF FIRST ROW-->
+
+
+
+
+    <!--           FIRST ROW-->
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+
+
+
+        <!--                FIRST ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/plumber"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Plumber"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FIRST ITEM-->
+
+        <!--                SECOND ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mechanic"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Mechanic"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF SECOND ITEM-->
+
+        <!--                THIRD ITEM-->
+
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/driver"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Driver"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF THIRD ITEM--> <!--                THIRD ITEM-->
+
+        <!--        THIRD ITEM-->
+        <androidx.cardview.widget.CardView
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/maid"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Maid"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <!--                END OF FOURTH ITEM-->
+    </LinearLayout>
+    <!--            END OF SECOND ROW-->
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

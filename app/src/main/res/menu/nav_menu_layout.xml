@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeMenuID"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_black_24"
+            />
+        <item
+            android:id="@+id/profileMenuID"
+            android:title="Profile"
+            android:icon="@drawable/ic_baseline_person_black_24"
+            />
+        <item
+            android:id="@+id/consultMenuID"
+            android:title="Consult"
+            android:icon="@drawable/ic_baseline_chat_bubble_black_24"
+            />
+    </group>
+
+
+    <item
+        android:title="App"
+        android:iconTint="@color/black"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/navShareId"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_black_24"
+                />
+            <item
+                android:id="@+id/navFeedbackId"
+                android:title="Feedback"
+                android:icon="@drawable/ic_baseline_feedback_black_24"
+
+                />
+            <item
+                android:id="@+id/navAboutUsId"
+                android:title="About Us"
+                android:icon="@drawable/ic_baseline_about_us_black_24"
+                />
+        </menu>
+
+
+
+    </item>
+
+
+
+
+
+
+
+</menu>
